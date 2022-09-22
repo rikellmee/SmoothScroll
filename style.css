@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    font-size: 20pt;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+html{
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: white;
+    width: 100%;
+    padding: 0%;
+    height: 2rem;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+}
+section{
+    min-height: 100vh;
+    padding-top: 2rem;
+}
+
+#prod{
+    background: red;
+}
+
+#ctt{
+    background: yellow;
+}
+
+#info{
+    background: orange;
+}
+
